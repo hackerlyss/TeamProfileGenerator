@@ -1,0 +1,30 @@
+{
+  "name": "TeamProfileGenerator",
+  "version": "1.0.0",
+  "description": "This is a node.js based tool to produce a webpage for any team. All the user must do is  answer a questionnaire regarding themselves and their team details including the manager, engineers, and interns. The result is a clean and functional page that showcases profiles of each team member.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerlyss/TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackerlyss/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/hackerlyss/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
